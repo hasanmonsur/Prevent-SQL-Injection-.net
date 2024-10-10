@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSqlInjectionApi", "WebSqlInjectionApi\WebSqlInjectionApi.csproj", "{5C100C71-B419-4D0C-98F4-ECE5C50914D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C100C71-B419-4D0C-98F4-ECE5C50914D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C100C71-B419-4D0C-98F4-ECE5C50914D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C100C71-B419-4D0C-98F4-ECE5C50914D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C100C71-B419-4D0C-98F4-ECE5C50914D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE0309ED-FF31-40A0-93FC-018D67DB794B}
+	EndGlobalSection
+EndGlobal

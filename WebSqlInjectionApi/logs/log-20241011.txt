@@ -1,0 +1,371 @@
+2024-10-11 01:01:16.742 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-11 01:01:16.869 +06:00 [DBG] Hosting starting
+2024-10-11 01:01:17.217 +06:00 [INF] Now listening on: https://localhost:7078
+2024-10-11 01:01:17.218 +06:00 [INF] Now listening on: http://localhost:5129
+2024-10-11 01:01:17.220 +06:00 [DBG] Loaded hosting startup assembly WebSqlInjectionApi
+2024-10-11 01:01:17.221 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-11 01:01:17.222 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-11 01:01:17.223 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-11 01:01:17.293 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-11 01:01:17.296 +06:00 [INF] Hosting environment: Development
+2024-10-11 01:01:17.297 +06:00 [INF] Content root path: D:\TestProject\PreventSQLInjection\WebSqlInjectionApi
+2024-10-11 01:01:17.298 +06:00 [DBG] Hosting started
+2024-10-11 01:01:17.643 +06:00 [DBG] Connection id "0HN79BNLS63SJ" received FIN.
+2024-10-11 01:01:17.643 +06:00 [DBG] Connection id "0HN79BNLS63SK" received FIN.
+2024-10-11 01:01:17.649 +06:00 [DBG] Connection id "0HN79BNLS63SK" accepted.
+2024-10-11 01:01:17.649 +06:00 [DBG] Connection id "0HN79BNLS63SJ" accepted.
+2024-10-11 01:01:17.651 +06:00 [DBG] Connection id "0HN79BNLS63SK" started.
+2024-10-11 01:01:17.652 +06:00 [DBG] Connection id "0HN79BNLS63SJ" started.
+2024-10-11 01:01:17.675 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-11 01:01:17.675 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-11 01:01:17.753 +06:00 [DBG] Connection id "0HN79BNLS63SJ" stopped.
+2024-10-11 01:01:17.753 +06:00 [DBG] Connection id "0HN79BNLS63SK" stopped.
+2024-10-11 01:01:17.769 +06:00 [DBG] Connection id "0HN79BNLS63SK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 01:01:17.769 +06:00 [DBG] Connection id "0HN79BNLS63SJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 01:01:19.108 +06:00 [DBG] Connection id "0HN79BNLS63SL" accepted.
+2024-10-11 01:01:19.110 +06:00 [DBG] Connection id "0HN79BNLS63SL" started.
+2024-10-11 01:01:19.171 +06:00 [DBG] Connection 0HN79BNLS63SL established using the following protocol: "Tls13"
+2024-10-11 01:01:19.281 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/index.html - null null
+2024-10-11 01:01:19.323 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-11 01:01:19.440 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-11 01:01:19.481 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-11 01:01:19.485 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/index.html - 200 null text/html;charset=utf-8 211.8386ms
+2024-10-11 01:01:19.636 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-11 01:01:19.669 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-11 01:01:19.671 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 35.7484ms
+2024-10-11 01:01:19.679 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 9.6724ms
+2024-10-11 01:01:19.776 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - null null
+2024-10-11 01:01:19.805 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Auth" for actions - WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi),WebSqlInjectionApi.Controllers.AuthController.GetDapperUserInfo (WebSqlInjectionApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-11 01:01:19.817 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 41.8571ms
+2024-10-11 01:01:19.835 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - null null
+2024-10-11 01:01:19.851 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Auth" for actions - WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi),WebSqlInjectionApi.Controllers.AuthController.GetDapperUserInfo (WebSqlInjectionApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-11 01:01:19.862 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 28.2374ms
+2024-10-11 01:01:20.629 +06:00 [DBG] Connection id "0HN79BNLS63SL" received FIN.
+2024-10-11 01:01:20.641 +06:00 [DBG] The connection queue processing loop for 0HN79BNLS63SL completed.
+2024-10-11 01:01:20.646 +06:00 [DBG] Connection id "0HN79BNLS63SL" is closed. The last processed stream ID was 9.
+2024-10-11 01:01:20.649 +06:00 [DBG] Connection id "0HN79BNLS63SL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 01:01:20.653 +06:00 [DBG] Connection id "0HN79BNLS63SL" stopped.
+2024-10-11 01:01:22.508 +06:00 [DBG] Connection id "0HN79BNLS63SM" accepted.
+2024-10-11 01:01:22.511 +06:00 [DBG] Connection id "0HN79BNLS63SM" started.
+2024-10-11 01:01:22.518 +06:00 [DBG] Connection 0HN79BNLS63SM established using the following protocol: "Tls13"
+2024-10-11 01:01:22.523 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-11 01:01:22.531 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 8.0284ms
+2024-10-11 01:01:22.533 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-11 01:01:22.543 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 9.8496ms
+2024-10-11 01:01:22.545 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-11 01:01:22.555 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 10.0092ms
+2024-10-11 01:01:22.641 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - null null
+2024-10-11 01:01:22.647 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Auth" for actions - WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi),WebSqlInjectionApi.Controllers.AuthController.GetDapperUserInfo (WebSqlInjectionApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-11 01:01:22.652 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 11.01ms
+2024-10-11 01:01:22.654 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - null null
+2024-10-11 01:01:22.661 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Auth" for actions - WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi),WebSqlInjectionApi.Controllers.AuthController.GetDapperUserInfo (WebSqlInjectionApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-11 01:01:22.665 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 11.6031ms
+2024-10-11 01:01:22.667 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - null null
+2024-10-11 01:01:22.677 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Auth" for actions - WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi),WebSqlInjectionApi.Controllers.AuthController.GetDapperUserInfo (WebSqlInjectionApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-11 01:01:22.681 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 13.9216ms
+2024-10-11 01:01:23.016 +06:00 [DBG] Connection id "0HN79BNLS63SM" received FIN.
+2024-10-11 01:01:23.018 +06:00 [DBG] Connection id "0HN79BNLS63SM" is closed. The last processed stream ID was 11.
+2024-10-11 01:01:23.018 +06:00 [DBG] The connection queue processing loop for 0HN79BNLS63SM completed.
+2024-10-11 01:01:23.019 +06:00 [DBG] Connection id "0HN79BNLS63SM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 01:01:23.024 +06:00 [DBG] Connection id "0HN79BNLS63SM" stopped.
+2024-10-11 01:01:35.762 +06:00 [DBG] Connection id "0HN79BNLS63SN" accepted.
+2024-10-11 01:01:35.763 +06:00 [DBG] Connection id "0HN79BNLS63SN" started.
+2024-10-11 01:01:35.767 +06:00 [DBG] Connection 0HN79BNLS63SN established using the following protocol: "Tls13"
+2024-10-11 01:01:35.769 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/index.html - null null
+2024-10-11 01:01:35.780 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-11 01:01:35.782 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-11 01:01:35.784 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/index.html - 200 null text/html;charset=utf-8 14.3705ms
+2024-10-11 01:01:35.799 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-11 01:01:35.803 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 4.5802ms
+2024-10-11 01:01:35.857 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - null null
+2024-10-11 01:01:35.863 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Auth" for actions - WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi),WebSqlInjectionApi.Controllers.AuthController.GetDapperUserInfo (WebSqlInjectionApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-11 01:01:35.868 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 11.0912ms
+2024-10-11 01:01:38.714 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/index.html - null null
+2024-10-11 01:01:38.720 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-11 01:01:38.724 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-11 01:01:38.726 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/index.html - 200 null text/html;charset=utf-8 12.5409ms
+2024-10-11 01:01:38.764 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-11 01:01:38.769 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 5.0379ms
+2024-10-11 01:01:38.808 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - null null
+2024-10-11 01:01:38.813 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Auth" for actions - WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi),WebSqlInjectionApi.Controllers.AuthController.GetDapperUserInfo (WebSqlInjectionApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-11 01:01:38.817 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 9.4305ms
+2024-10-11 01:01:42.942 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/index.html - null null
+2024-10-11 01:01:42.946 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-11 01:01:42.950 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-11 01:01:42.953 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/index.html - 200 null text/html;charset=utf-8 11.6921ms
+2024-10-11 01:01:43.005 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-11 01:01:43.010 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 5.4003ms
+2024-10-11 01:01:43.025 +06:00 [DBG] Connection id "0HN79BNLS63SN" received FIN.
+2024-10-11 01:01:43.031 +06:00 [DBG] Connection id "0HN79BNLS63SN" is closed. The last processed stream ID was 15.
+2024-10-11 01:01:43.035 +06:00 [DBG] Connection id "0HN79BNLS63SN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 01:01:43.033 +06:00 [DBG] The connection queue processing loop for 0HN79BNLS63SN completed.
+2024-10-11 01:01:43.041 +06:00 [DBG] Connection id "0HN79BNLS63SN" stopped.
+2024-10-11 01:01:43.082 +06:00 [DBG] Connection id "0HN79BNLS63SO" accepted.
+2024-10-11 01:01:43.084 +06:00 [DBG] Connection id "0HN79BNLS63SO" started.
+2024-10-11 01:01:43.089 +06:00 [DBG] Connection 0HN79BNLS63SO established using the following protocol: "Tls13"
+2024-10-11 01:01:43.092 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - null null
+2024-10-11 01:01:43.096 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Auth" for actions - WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi),WebSqlInjectionApi.Controllers.AuthController.GetDapperUserInfo (WebSqlInjectionApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-11 01:01:43.102 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 10.4943ms
+2024-10-11 01:01:49.899 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/index.html - null null
+2024-10-11 01:01:49.911 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-11 01:01:49.914 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-11 01:01:49.915 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/index.html - 200 null text/html;charset=utf-8 16.1208ms
+2024-10-11 01:01:49.934 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-11 01:01:49.938 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 4.011ms
+2024-10-11 01:01:49.982 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - null null
+2024-10-11 01:01:50.083 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.0496ms
+2024-10-11 01:01:53.029 +06:00 [DBG] Connection id "0HN79BNLS63SO" received FIN.
+2024-10-11 01:01:53.032 +06:00 [DBG] Connection id "0HN79BNLS63SO" is closed. The last processed stream ID was 7.
+2024-10-11 01:01:53.032 +06:00 [DBG] The connection queue processing loop for 0HN79BNLS63SO completed.
+2024-10-11 01:01:53.033 +06:00 [DBG] Connection id "0HN79BNLS63SO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 01:01:53.036 +06:00 [DBG] Connection id "0HN79BNLS63SO" stopped.
+2024-10-11 01:01:58.905 +06:00 [DBG] Connection id "0HN79BNLS63SP" accepted.
+2024-10-11 01:01:58.908 +06:00 [DBG] Connection id "0HN79BNLS63SP" started.
+2024-10-11 01:01:58.913 +06:00 [DBG] Connection 0HN79BNLS63SP established using the following protocol: "Tls13"
+2024-10-11 01:01:58.918 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/api/Auth/GetSqlUserInfo?id=1 - null null
+2024-10-11 01:01:58.924 +06:00 [DBG] The request path  does not match the path filter
+2024-10-11 01:01:58.952 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Auth/GetSqlUserInfo'
+2024-10-11 01:01:58.957 +06:00 [DBG] Endpoint 'WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi)' with route pattern 'api/Auth/GetSqlUserInfo' is valid for the request path '/api/Auth/GetSqlUserInfo'
+2024-10-11 01:01:58.959 +06:00 [DBG] Request matched endpoint 'WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi)'
+2024-10-11 01:01:58.963 +06:00 [INF] Executing endpoint 'WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi)'
+2024-10-11 01:01:58.990 +06:00 [INF] Route matched with {action = "GetSqlUserInfo", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetSqlUserInfo(Int32) on controller WebSqlInjectionApi.Controllers.AuthController (WebSqlInjectionApi).
+2024-10-11 01:01:58.994 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-11 01:01:58.995 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-11 01:01:58.997 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-11 01:01:59.000 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-11 01:01:59.002 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-11 01:01:59.006 +06:00 [DBG] Executing controller factory for controller WebSqlInjectionApi.Controllers.AuthController (WebSqlInjectionApi)
+2024-10-11 01:01:59.013 +06:00 [INF] Executed action WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi) in 6.5097ms
+2024-10-11 01:01:59.016 +06:00 [INF] Executed endpoint 'WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi)'
+2024-10-11 01:01:59.020 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'WebSqlInjectionApi.Contacts.IUserSqlService' while attempting to activate 'WebSqlInjectionApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-11 01:01:59.027 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/api/Auth/GetSqlUserInfo?id=1 - 500 null text/plain; charset=utf-8 109.2812ms
+2024-10-11 01:02:03.032 +06:00 [DBG] Connection id "0HN79BNLS63SP" received FIN.
+2024-10-11 01:02:03.036 +06:00 [DBG] Connection id "0HN79BNLS63SP" is closed. The last processed stream ID was 1.
+2024-10-11 01:02:03.036 +06:00 [DBG] The connection queue processing loop for 0HN79BNLS63SP completed.
+2024-10-11 01:02:03.037 +06:00 [DBG] Connection id "0HN79BNLS63SP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 01:02:03.041 +06:00 [DBG] Connection id "0HN79BNLS63SP" stopped.
+2024-10-11 01:06:38.084 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-11 01:06:38.285 +06:00 [DBG] Hosting starting
+2024-10-11 01:06:38.526 +06:00 [INF] Now listening on: https://localhost:7078
+2024-10-11 01:06:38.528 +06:00 [INF] Now listening on: http://localhost:5129
+2024-10-11 01:06:38.530 +06:00 [DBG] Loaded hosting startup assembly WebSqlInjectionApi
+2024-10-11 01:06:38.531 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-11 01:06:38.532 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-11 01:06:38.533 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-11 01:06:38.586 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-11 01:06:38.588 +06:00 [INF] Hosting environment: Development
+2024-10-11 01:06:38.590 +06:00 [INF] Content root path: D:\TestProject\PreventSQLInjection\WebSqlInjectionApi
+2024-10-11 01:06:38.591 +06:00 [DBG] Hosting started
+2024-10-11 01:06:38.598 +06:00 [DBG] Connection id "0HN79BQLH1O8D" accepted.
+2024-10-11 01:06:38.598 +06:00 [DBG] Connection id "0HN79BQLH1O8E" accepted.
+2024-10-11 01:06:38.604 +06:00 [DBG] Connection id "0HN79BQLH1O8E" received FIN.
+2024-10-11 01:06:38.604 +06:00 [DBG] Connection id "0HN79BQLH1O8D" received FIN.
+2024-10-11 01:06:38.605 +06:00 [DBG] Connection id "0HN79BQLH1O8E" started.
+2024-10-11 01:06:38.604 +06:00 [DBG] Connection id "0HN79BQLH1O8D" started.
+2024-10-11 01:06:38.623 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-11 01:06:38.623 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-11 01:06:38.667 +06:00 [DBG] Connection id "0HN79BQLH1O8E" stopped.
+2024-10-11 01:06:38.667 +06:00 [DBG] Connection id "0HN79BQLH1O8D" stopped.
+2024-10-11 01:06:38.673 +06:00 [DBG] Connection id "0HN79BQLH1O8D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 01:06:38.673 +06:00 [DBG] Connection id "0HN79BQLH1O8E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 01:06:40.127 +06:00 [DBG] Connection id "0HN79BQLH1O8F" accepted.
+2024-10-11 01:06:40.129 +06:00 [DBG] Connection id "0HN79BQLH1O8F" started.
+2024-10-11 01:06:40.167 +06:00 [DBG] Connection 0HN79BQLH1O8F established using the following protocol: "Tls13"
+2024-10-11 01:06:40.275 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/index.html - null null
+2024-10-11 01:06:40.315 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-11 01:06:40.421 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-11 01:06:40.444 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-11 01:06:40.450 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/index.html - 200 null text/html;charset=utf-8 184.0785ms
+2024-10-11 01:06:40.770 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-11 01:06:40.783 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-11 01:06:40.786 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 14.9741ms
+2024-10-11 01:06:40.790 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.4485ms
+2024-10-11 01:06:40.877 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - null null
+2024-10-11 01:06:41.052 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 175.2287ms
+2024-10-11 01:06:41.057 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - null null
+2024-10-11 01:06:41.067 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.8525ms
+2024-10-11 01:06:41.633 +06:00 [DBG] Connection id "0HN79BQLH1O8F" received FIN.
+2024-10-11 01:06:41.638 +06:00 [DBG] The connection queue processing loop for 0HN79BQLH1O8F completed.
+2024-10-11 01:06:41.643 +06:00 [DBG] Connection id "0HN79BQLH1O8F" is closed. The last processed stream ID was 9.
+2024-10-11 01:06:41.645 +06:00 [DBG] Connection id "0HN79BQLH1O8F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 01:06:41.649 +06:00 [DBG] Connection id "0HN79BQLH1O8F" stopped.
+2024-10-11 01:06:46.038 +06:00 [DBG] Connection id "0HN79BQLH1O8G" accepted.
+2024-10-11 01:06:46.040 +06:00 [DBG] Connection id "0HN79BQLH1O8G" started.
+2024-10-11 01:06:46.045 +06:00 [DBG] Connection 0HN79BQLH1O8G established using the following protocol: "Tls13"
+2024-10-11 01:06:46.048 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/api/Auth/GetSqlUserInfo?id=1 - null null
+2024-10-11 01:06:46.053 +06:00 [DBG] The request path  does not match the path filter
+2024-10-11 01:06:46.077 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Auth/GetSqlUserInfo'
+2024-10-11 01:06:46.081 +06:00 [DBG] Endpoint 'WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi)' with route pattern 'api/Auth/GetSqlUserInfo' is valid for the request path '/api/Auth/GetSqlUserInfo'
+2024-10-11 01:06:46.086 +06:00 [DBG] Request matched endpoint 'WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi)'
+2024-10-11 01:06:46.091 +06:00 [INF] Executing endpoint 'WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi)'
+2024-10-11 01:06:46.111 +06:00 [INF] Route matched with {action = "GetSqlUserInfo", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetSqlUserInfo(Int32) on controller WebSqlInjectionApi.Controllers.AuthController (WebSqlInjectionApi).
+2024-10-11 01:06:46.114 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-11 01:06:46.116 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-11 01:06:46.119 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-11 01:06:46.122 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-11 01:06:46.124 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-11 01:06:46.127 +06:00 [DBG] Executing controller factory for controller WebSqlInjectionApi.Controllers.AuthController (WebSqlInjectionApi)
+2024-10-11 01:06:46.131 +06:00 [DBG] Executed controller factory for controller WebSqlInjectionApi.Controllers.AuthController (WebSqlInjectionApi)
+2024-10-11 01:06:46.153 +06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-10-11 01:06:46.158 +06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-10-11 01:06:46.162 +06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-11 01:06:46.163 +06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-11 01:06:46.164 +06:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-10-11 01:06:46.169 +06:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-10-11 01:06:47.544 +06:00 [INF] Received input from user: {"Id":1,"Name":"Md  Hasan Monsur","Email":"hasan@gmail.com"}
+2024-10-11 01:06:47.555 +06:00 [INF] Received input from user: {"Id":1,"Name":"Md  Hasan Monsur","Email":"hasan@gmail.com","$type":"User"}
+2024-10-11 01:06:47.564 +06:00 [WRN] Mask Email provided for user: h****@gmail.com
+2024-10-11 01:06:47.570 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-11 01:06:47.578 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-10-11 01:06:47.580 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-11 01:06:47.581 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-11 01:06:47.585 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-11 01:06:47.588 +06:00 [INF] Executing OkObjectResult, writing value of type 'WebSqlInjectionApi.Models.User'.
+2024-10-11 01:06:47.596 +06:00 [INF] Executed action WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi) in 1467.2576ms
+2024-10-11 01:06:47.598 +06:00 [INF] Executed endpoint 'WebSqlInjectionApi.Controllers.AuthController.GetSqlUserInfo (WebSqlInjectionApi)'
+2024-10-11 01:06:47.600 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/api/Auth/GetSqlUserInfo?id=1 - 200 null application/json; charset=utf-8 1551.887ms
+2024-10-11 01:06:54.028 +06:00 [DBG] Connection id "0HN79BQLH1O8G" received FIN.
+2024-10-11 01:06:54.031 +06:00 [DBG] Connection id "0HN79BQLH1O8G" is closed. The last processed stream ID was 1.
+2024-10-11 01:06:54.031 +06:00 [DBG] The connection queue processing loop for 0HN79BQLH1O8G completed.
+2024-10-11 01:06:54.034 +06:00 [DBG] Connection id "0HN79BQLH1O8G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 01:06:54.038 +06:00 [DBG] Connection id "0HN79BQLH1O8G" stopped.
+2024-10-11 01:06:59.404 +06:00 [DBG] Connection id "0HN79BQLH1O8H" accepted.
+2024-10-11 01:06:59.406 +06:00 [DBG] Connection id "0HN79BQLH1O8H" started.
+2024-10-11 01:06:59.411 +06:00 [DBG] Connection 0HN79BQLH1O8H established using the following protocol: "Tls13"
+2024-10-11 01:06:59.415 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7078/api/Auth/GetDapperUserInfo?id=1 - null null
+2024-10-11 01:06:59.418 +06:00 [DBG] The request path  does not match the path filter
+2024-10-11 01:06:59.420 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Auth/GetDapperUserInfo'
+2024-10-11 01:06:59.424 +06:00 [DBG] Endpoint 'WebSqlInjectionApi.Controllers.AuthController.GetDapperUserInfo (WebSqlInjectionApi)' with route pattern 'api/Auth/GetDapperUserInfo' is valid for the request path '/api/Auth/GetDapperUserInfo'
+2024-10-11 01:06:59.426 +06:00 [DBG] Request matched endpoint 'WebSqlInjectionApi.Controllers.AuthController.GetDapperUserInfo (WebSqlInjectionApi)'
+2024-10-11 01:06:59.429 +06:00 [INF] Executing endpoint 'WebSqlInjectionApi.Controllers.AuthController.GetDapperUserInfo (WebSqlInjectionApi)'
+2024-10-11 01:06:59.434 +06:00 [INF] Route matched with {action = "GetDapperUserInfo", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetDapperUserInfo(Int32) on controller WebSqlInjectionApi.Controllers.AuthController (WebSqlInjectionApi).
+2024-10-11 01:06:59.437 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-11 01:06:59.440 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-11 01:06:59.443 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-11 01:06:59.446 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-11 01:06:59.448 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-11 01:06:59.450 +06:00 [DBG] Executing controller factory for controller WebSqlInjectionApi.Controllers.AuthController (WebSqlInjectionApi)
+2024-10-11 01:06:59.451 +06:00 [DBG] Executed controller factory for controller WebSqlInjectionApi.Controllers.AuthController (WebSqlInjectionApi)
+2024-10-11 01:06:59.453 +06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-10-11 01:06:59.455 +06:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-10-11 01:06:59.457 +06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-11 01:06:59.459 +06:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-11 01:06:59.460 +06:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-10-11 01:06:59.462 +06:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-10-11 01:06:59.730 +06:00 [INF] Received input from user: {"Id":1,"Name":"Md  Hasan Monsur","Email":"hasan@gmail.com"}
+2024-10-11 01:06:59.734 +06:00 [INF] Received input from user: {"Id":1,"Name":"Md  Hasan Monsur","Email":"hasan@gmail.com","$type":"User"}
+2024-10-11 01:06:59.739 +06:00 [WRN] Mask Email provided for user: h****@gmail.com
+2024-10-11 01:06:59.740 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-11 01:06:59.743 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-10-11 01:06:59.744 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-11 01:06:59.745 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-11 01:06:59.746 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-11 01:06:59.748 +06:00 [INF] Executing OkObjectResult, writing value of type 'WebSqlInjectionApi.Models.User'.
+2024-10-11 01:06:59.749 +06:00 [INF] Executed action WebSqlInjectionApi.Controllers.AuthController.GetDapperUserInfo (WebSqlInjectionApi) in 299.6384ms
+2024-10-11 01:06:59.751 +06:00 [INF] Executed endpoint 'WebSqlInjectionApi.Controllers.AuthController.GetDapperUserInfo (WebSqlInjectionApi)'
+2024-10-11 01:06:59.753 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7078/api/Auth/GetDapperUserInfo?id=1 - 200 null application/json; charset=utf-8 338.6198ms
+2024-10-11 01:07:04.028 +06:00 [DBG] Connection id "0HN79BQLH1O8H" received FIN.
+2024-10-11 01:07:04.031 +06:00 [DBG] Connection id "0HN79BQLH1O8H" is closed. The last processed stream ID was 1.
+2024-10-11 01:07:04.031 +06:00 [DBG] The connection queue processing loop for 0HN79BQLH1O8H completed.
+2024-10-11 01:07:04.033 +06:00 [DBG] Connection id "0HN79BQLH1O8H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-11 01:07:04.037 +06:00 [DBG] Connection id "0HN79BQLH1O8H" stopped.
